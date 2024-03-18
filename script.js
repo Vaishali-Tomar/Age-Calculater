@@ -1,4 +1,4 @@
-document.getElementById('btn').addEventListener('click', function() {
+{document.getElementById('btn').addEventListener('click', function() {
     var inputDate = document.querySelector('.dateInut').value;
 
     var birthDate = new Date(inputDate);
@@ -20,4 +20,4 @@ document.getElementById('btn').addEventListener('click', function() {
     }else{
         alert("Not Born Yet");
     }
-});
+});}
