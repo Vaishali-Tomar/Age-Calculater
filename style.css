@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 107, 145);
+    gap: 150px;
+}
+.buttonAndDate{
+    background-color: black;
+    padding: 45px 35px;
+    display: flex;
+    gap: 60px;
+    border-radius: 15px;
+}
+.buttonAndDate input{
+    width: 380px;
+    padding: 15px 25px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.buttonAndDate button{
+    width: 180px;
+    padding: 15px 25px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+#result{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 170px;
+}
+.year{
+    background-color: black;
+    color: white;
+    padding: 25px 35px;
+    border-radius: 8px;
+}
+.month{
+    background-color: black;
+    color: white;
+    padding: 25px 35px;
+    border-radius: 8px;
+}
+.day{
+    background-color: black;
+    color: white;
+    padding: 25px 35px;
+    border-radius: 8px;
+}
